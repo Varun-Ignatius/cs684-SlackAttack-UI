@@ -1,34 +1,14 @@
-Test plan for a login page:
+Test Plan
 
-1)Test the user interface:
--Verify that the login page has all the necessary elements, including input fields for username and password, a "login" button, and a "forgot password" link.
--Verify that the user interface is consistent with the application's overall design.
--Verify that the input fields are properly labeled and have placeholder text to indicate their purpose.
+Introduction
+The test Plan for the first sprint is to test the SignIn and SingUp APIs and well as the UI pages which is being created for the News App.
 
-2)Test user input validation:
--Attempt to submit the login form with empty fields and verify that appropriate error messages are displayed.
--Attempt to submit the login form with invalid input (e.g. incorrect username or password format) and verify that appropriate error messages are displayed.
+Test Cases
+There are various test cases which are identified for the SignIn and SignUp pages. It is all available in the Test-Case document in the repository.
 
-3)Test authentication:
--Attempt to log in with a valid username and password and verify that the user is successfully logged in.
--Attempt to log in with an invalid username and password combination and verify that the user is not allowed to log in and an appropriate error message is displayed.
+Test Results
+There 2 outcomes for each test cases which is Passed or Failed.
 
-4)Test password reset functionality:
--Click on the "forgot password" link and verify that the user is taken to a password reset page.
--Verify that the password reset page has all the necessary elements, including input fields for the user's email address and a "reset password" button.
--Attempt to reset the password with a valid email address and verify that a password reset email is sent to the user's email address.
-
-5)Test security:
--Verify that the login page is protected by HTTPS and that sensitive information is transmitted securely.
--Attempt to bypass the login form by manually entering the URL of a protected page and verify that the user is redirected to the login page.
-
-6)Test compatibility:
--Verify that the login page is compatible with different browsers and devices, including desktop and mobile devices.
-
-7)Test performance:
--Verify that the login page loads quickly and does not have any performance issues.
--Verify that the login page can handle a high volume of simultaneous login attempts without crashing or slowing down.
--These are just some of the tests that you could include in a test plan for a login page. The exact tests you choose to include may vary depending on the specific requirements of your application.
-
-
-
+Responsibilities
+Fullstack Development: Varun Ignatius (va362)
+Unit test and Integration test: Shreya, Rinkal and Jasmin
