@@ -35,11 +35,14 @@ function Login(){
           }
           else if(result.Code == 200)
           {
+            
             document.getElementById('nav-signUp').style.display='none';
             document.getElementById('nav-login').style.display='none';
             document.getElementById('nav-logout').style.display='block';
             document.getElementById('nav-Hello').style.display='block';
+            document.getElementById('nav-Settings').style.display='block';
             document.getElementById('lblWelcome').textContent="Hello "+userName;
+            document.getElementById('hdnUserName').textContent= userName;
             let path = '/'; 
             navigate(path);
         }

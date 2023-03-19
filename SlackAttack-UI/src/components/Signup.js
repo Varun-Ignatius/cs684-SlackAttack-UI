@@ -64,9 +64,19 @@ function SignUp() {
       const v1 = USER_REGEX.test(user);
       const v2 = PWD_REGEX.test(pwd);
       const v3 = emailRegex.test(email);
-      if (!v1 || !v2 || !v3) {
-          setErrMsg("Invalid Entry");
-          window.alert("Invalid Entry");
+      if (!v1) {
+          setErrMsg("Invalid UserName");
+          window.alert("Invalid UserName");
+          return;
+      }
+      else if(!v2){
+        setErrMsg("Invalid Password");
+          window.alert("Invalid Password");
+          return;
+      }
+      else if(!v3){
+        setErrMsg("Invalid Email");
+          window.alert("Invalid Email");
           return;
       }
       const requestOptions = {

@@ -9,6 +9,7 @@ body {
   display: flex;
   font-weight: 400;
   font-family: "Fira Sans", sans-serif;
+  padding-top: '65px';
 }
 
 h1,
@@ -35,6 +36,7 @@ html,
 .navbar-light {
   background-color: #000000;
   box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding-top: '65px';
 }
 
 .auth-wrapper {
@@ -45,11 +47,11 @@ html,
 }
 
 .auth-inner {
-  width: 450px;
+  width: 850px;
   margin: auto;
   background: #ffffff;
   box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
-  padding: 40px 55px 45px 55px;
+  padding: 100px 55px 45px 55px;
   border-radius: 15px;
   transition: all 0.3s;
 }
