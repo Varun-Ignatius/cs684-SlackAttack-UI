@@ -106,4 +106,115 @@ Here are some possible test cases for a sign-up page API:
 9.	Rate limiting: Verify that the API is rate-limited to prevent excessive registration attempts (e.g. limit to 5 attempts per minute).
 10.	Security: Verify that the API is secure and protected against common attacks (e.g. SQL injection, cross-site scripting).
 
+Test Case Module
+Test Case Name
+Test Case Description
+Test Steps
+Test Data
+Expected Result
+Actual Result
+Login Module
+Valid LogIn
+Enter correct username and password and click on the "Login" button. Verify that user is successfully logged in and redirected to the home page
+1. Enter the correct username
+
+2. Enter the correct password
+Username: Varun123
+
+Password:
+Varun@18
+Output: { "Code": 200, "Message": "Signed In Successfully" }
+Output: { "Code": 200, "Message": "Signed In Successfully" }
+
+Invalid LogIn
+Enter correct username and incorrect password and click on the "Login" button. Verify that an error message is displayed and the user is not able to log in.
+1. Enter the correct username
+
+2. Enter the incorrect password
+Username: Varun123
+
+Password:
+Varun@15
+Output: { "Code": 401, "Message": "Invalid UserName or Password" }
+Output: { "Code": 401, "Message": "Invalid UserName or Password" }
+
+Invalid LogIn
+Enter incorrect username and correct password and click on the "Login" button. Verify that an error message is displayed and the user is not able to log in.
+1.Enter the incorrect username
+
+2.Enter the correct password
+Username: Varun121
+
+Password:
+Varun@18
+Output: { "Code": 401, "Message": "Invalid UserName or Password" }
+Output: { "Code": 401, "Message": "Invalid UserName or Password" }
+SignUp Module
+Valid SignIn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Test Case ModuleTest Case NameTest Case DescriptionTest StepsTest DataExpected ResultActual ResultLogin ModuleValid Login/SignInEnter correct username and password and click on the "Login" button. Verify that user is successfully logged in and redirected to the home page1.Enter the correct username
+
+2.Enter the correct passwordUsername:
+Shreya121
+
+Password:
+Tintin@11
+Output:
+{
+    "Code": 200,
+    "Message": "Signed In Successfully"
+}
+Output:
+{
+    "Code": 200,
+    "Message": "Signed In Successfully"
+}
+
 
