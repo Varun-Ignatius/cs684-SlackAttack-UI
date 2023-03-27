@@ -2,8 +2,8 @@ Test Plan
 
 Introduction:
 
-The test Plan for the second sprint is to test the Landing Page displaying General Category News. 
-For this Sprint the Landing Page before and after Logging in will display General Category News.
+The test Plan for the second sprint is to test the first deliverables i.e. to test the SignIn and SingUp APIs and well as the UI pages which is being created for the News App.
+For this Sprint we also test the Landing Page before and after Logging in to display General Category News.
 The other requirment is to provide user to update their news preferences.
 
 
