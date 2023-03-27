@@ -114,9 +114,7 @@ const LandingPage = () => {
   }, [])
   return (
       <div>
-       <div style={{height: '8300px'}}>
-
-      </div>
+      
       <div>
           {articles.map(article => {
               return(
@@ -148,7 +146,7 @@ const LandingPage = () => {
           name="Science"
           value="science"
         />
-        <label>General</label>
+        <label>Science</label>
         </div>
         <div>
          <input

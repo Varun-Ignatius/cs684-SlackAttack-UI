@@ -3,7 +3,6 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 import { BrowserRouter as Router, Routes, Route, Link, useHistory } from 'react-router-dom'
 import { createBrowserHistory } from 'history';
-import axios from 'axios'
 import Login from './components/Login'
 import SignUp from './components/Signup'
 import LandingPage from './components/LandingPage'
@@ -76,7 +75,7 @@ function App() {
     }
     if(result.data.sports == true)
     {
-      document.getElementById('chkSports').checked = true;
+      document.getElementById('chksports').checked = true;
     }
     if(result.data.technology == true)
     {
@@ -152,6 +151,9 @@ function App() {
           </div>
         </nav>
         {/* <BackButtonListener />    */}
+        <div style={{height: '700px'}}>
+
+      </div>
         <div className="auth-wrapper" >
           <div className="auth-inner" >    
            
