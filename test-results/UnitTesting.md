@@ -54,3 +54,13 @@ PASS User is deleted successfully
 <img width="659" alt="image" src="https://user-images.githubusercontent.com/114790536/228021777-73cee451-d5d6-46ed-a22e-c98f13423e6f.png">
 
 
+---Testing a PUT resquest: Checking that the user was successfully updated---
+pm.test("User is updated successfully",function(){
+    pm.response.to.have.status(200);
+});
+
+Test Results:
+
+PASS User is updated successfully
+
+<img width="648" alt="image" src="https://user-images.githubusercontent.com/114790536/228023287-a8dbb9a4-4690-41da-9f6e-6738af64c732.png">
