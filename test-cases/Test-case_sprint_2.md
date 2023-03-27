@@ -26,10 +26,5 @@ Test cases for sprint-2
       -Assert that the response status code is 200 ok.
       -Create another GET request to the 'landing_page_settings' endpoint and verify that the news categories setting has been updated to the new value.
  
- 6. Test case for resetting the landing page setting:
-      -Create a GET request to the 'landing_page_settings' endpoint and retrieve the current landing page settings.
-      -Update some of the setting to new values using PUT requests to the same endpoint.
-      -Create a Delete request to the 'land_page_settings' endpoint to reset the settings to their default values.
-      -assert that the response status code is 24 NO Content.
-      -Create another GET request to the 'landing_page_settings' endpoint and verify that the settings have been reset to their default values.
+
       
