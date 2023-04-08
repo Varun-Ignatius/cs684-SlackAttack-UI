@@ -58,8 +58,8 @@ function Login(){
       <form>
         <h3>Sign In</h3>
 
-        <div className="mb-3">
-          <label>Username</label>
+        <div className="mb-3" data-testid="username">
+          <label htmlFor="Username">Username</label>
           <input
             id='txtUserName'
             type="text"
@@ -72,8 +72,8 @@ function Login(){
           />
         </div>
 
-        <div className="mb-3">
-          <label>Password</label>
+        <div className="mb-3" data-testid="password">
+          <label htmlFor="Password">Password</label>
           <input
             id='txtPassword'
             type="password"
@@ -85,7 +85,7 @@ function Login(){
           />
         </div>
 
-        <div className="mb-3">
+        <div className="mb-3" data-testid="custom-checkbox">
           <div className="custom-control custom-checkbox">
             <input
               type="checkbox"
@@ -98,7 +98,7 @@ function Login(){
           </div>
         </div>
         {/* <Link to={'/'}> */}
-        <div className="d-grid">
+        <div className="d-grid" data-testid="submitButton">
         
           <button type="button" className="btn btn-primary" style={{backgroundColor:'#545555', borderColor:'#000000'}} onClick={submit}>
             Submit

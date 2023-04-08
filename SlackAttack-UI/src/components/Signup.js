@@ -120,7 +120,7 @@ function SignUp() {
 
        
 
-        <div className="mb-3">
+        <div className="mb-3" data-testid="username">
           <label>Username
           </label>
           <input type="text" className="form-control" placeholder="Username" ref = {userRef}
