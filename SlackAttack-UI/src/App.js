@@ -6,6 +6,7 @@ import { createBrowserHistory } from 'history';
 import Login from './components/Login'
 import SignUp from './components/Signup'
 import LandingPage from './components/LandingPage'
+import { ProSidebarProvider } from 'react-pro-sidebar';
 
 // const BackButtonListener = ({ children }) => {
 //   const [pressed, setPressed] = React.useState(false)
@@ -57,30 +58,59 @@ function App() {
     {
       document.getElementById('chkBusiness').checked = true;
     }
+    else
+      {
+        document.getElementById('chkBusiness').checked = false;
+      }
+  
     if(result.data.entertainment == true)
     {
       document.getElementById('chkEntertainment').checked = true;
     }
+    else
+      {
+        document.getElementById('chkEntertainment').checked = false;
+      }
     if(result.data.general == true)
     {
       document.getElementById('chkGeneral').checked = true;
     }
+    else
+      {
+        document.getElementById('chkGeneral').checked = false;
+      }
     if(result.data.health == true)
     {
       document.getElementById('chkHealth').checked = true;
     }
+    else
+      {
+        document.getElementById('chkHealth').checked = false;
+      }
     if(result.data.science == true)
     {
       document.getElementById('chkScience').checked = true;
     }
+    else
+      {
+        document.getElementById('chkScience').checked = false;
+      }
     if(result.data.sports == true)
     {
       document.getElementById('chksports').checked = true;
     }
+    else
+      {
+        document.getElementById('chksports').checked = false;
+      }
     if(result.data.technology == true)
     {
       document.getElementById('chkTechnology').checked = true;
     }
+    else
+      {
+        document.getElementById('chkTechnology').checked = false;
+      }
     document.getElementById('PopUp').style.display='block';
   }
 })
@@ -107,8 +137,8 @@ function App() {
   return (
     
     <Router>
-      <div className="App">
-        <nav className="navbar navbar-expand-lg navbar-light fixed-top">
+      <div className="App" style={{ display: 'flex', flexDirection: 'column'}}>
+        <nav className="navbar navbar-expand-lg navbar-light navbar-static-top" style={{height: '15%'}}>
           <div className="container">
             <Link className="navbar-brand" to={'/'} style={{color:'#ffffff'}} onClick={DisplayLoginSignUp}>
               SlackAttack News
@@ -116,7 +146,7 @@ function App() {
             <div className="collapse navbar-collapse" id="navbarTogglerDemo02" >
               <ul className="navbar-nav ml-auto">
               <li className="nav-item" style={{display: 'none'}}>
-                <p className="nav-link" id='hdnUserName' style={{color:'#ffffff'}}> noUser </p>
+                <p className="nav-link" id='hdnUserName' style={{color:'#ffffff'}}>noUser</p>
                 </li>
               <li className="nav-item" id='nav-blank'>
                   <p className="nav-link" style={{color:'#000000', width:'900px'}}>
@@ -151,17 +181,18 @@ function App() {
           </div>
         </nav>
         {/* <BackButtonListener />    */}
-        <div style={{height: '700px'}}>
-
-      </div>
-        <div className="auth-wrapper" >
+       
+        <div className="auth-wrapper" style={{height: '85%'}}>
           <div className="auth-inner" >    
-           
+          <ProSidebarProvider>
             <Routes>
+           
               <Route exact path="/" element={<LandingPage />} />
               <Route path="/sign-in" element={<Login />} />
               <Route path="/sign-up" element={<SignUp />} />
+            
             </Routes>
+            </ProSidebarProvider>
           </div>
         </div>
       </div>

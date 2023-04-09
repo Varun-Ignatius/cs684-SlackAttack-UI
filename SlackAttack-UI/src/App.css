@@ -24,13 +24,14 @@
   color: white;
 }
 
-.auth-wrapper{
-  position: sticky;
-  top: 0;
-}
+
+
 .App-link {
   color: #61dafb;
 }
+
+
+
 
 @keyframes App-logo-spin {
   from {
@@ -40,3 +41,4 @@
     transform: rotate(360deg);
   }
 }
+
