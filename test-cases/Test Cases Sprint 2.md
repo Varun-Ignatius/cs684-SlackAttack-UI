@@ -2,7 +2,7 @@
 
 UI101 	Verify Sign in button is there 
 
-	1.Visit News
+	1.Visit SlackAttacknews
 
 UI102    Verify Homepage is showing General categories News 
 
