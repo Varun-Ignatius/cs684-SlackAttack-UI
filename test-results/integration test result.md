@@ -1,0 +1,15 @@
+| | | | | | |
+|:----|:----|:----|:----|:----|:----|
+|Test ID|Test Description|Expected Output|Actual Output|Result| |
+| | | | | | |
+|Int101|Check if UI application able to get customized news feed from http://127.0.0.1:5000/News/username  API by feeding the username.|UI app able to get customized news from the API.|UI app able to get customized news from the API.|Pass| |
+|Int102|Check if UI application able to get general news feed from http://127.0.0.1:5000/News/noUser  API by feeding the noUser as username. |UI app able to get general news from the API. |UI app able to get general news from the API. |Pass| |
+|Int103|Check if UI application able to get general category news from http://127.0.0.1:5000/News/category/general  API when user click general category and able to display the news.|UI app able to get general news from the API and display the news. |UI app able to get general news from the API and display the news. |Pass| |
+|Int104|Check if UI application able to get business category news from http://127.0.0.1:5000/News/category/business API when user click business category and able to display the news.|UI app able to get business news from the API and display the news.  |UI app able to get business news from the API and display the news.  |Pass| |
+|Int105|Check if UI application able to get entertainment category news from http://127.0.0.1:5000/News/category/entertainment API when user click entertainment category and able to display the news.|UI app able to get entertainment news from the API and display the news.|UI app able to get entertainment news from the API and display the news.|Pass| |
+|Int106|Check if UI application able to get health category news from http://127.0.0.1:5000/News/category/health API when user click health category and able to display the news.|UI app able to get health news from the API and display the news. |UI app able to get health news from the API and display the news. |Pass| |
+|Int107|Check if UI application able to get science category news from http://127.0.0.1:5000/News/category/science API when user click science category and able to display the news. |UI app able to get science news from the API and display the news. |UI app able to get science news from the API and display the news. |Pass| |
+|Int108|Check if UI application able to get sports category news from http://127.0.0.1:5000/News/category/sports  API when user click sports category and able to display the news.  |UI app able to get sports news from the API and display the news. |UI app able to get sports news from the API and display the news. |Pass| |
+|Int109|
+Check if UI application able to get technology category news from http://127.0.0.1:5000/News/category/technology API when user click technology category and able to display the news.|UI app able to get technology news from the API and display the news.|UI app able to get technology news from the API and display the news.  |Pass| |
+| | | | | | |
