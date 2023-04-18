@@ -136,6 +136,15 @@ const homelNews =  () => {
       {
        
         setArticles(result.NewsData.articles)
+        document.getElementById('miHome').style.backgroundColor= '#2a5fe8'
+        document.getElementById('miGeneral').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miBusiness').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miEntertainment').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miHealth').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miScience').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miSport').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miTech').style.backgroundColor= '#f9f9f9'
+        document.getElementById('txtSearch').value = ""
         setCurrentPage(1)
         
     }
@@ -163,6 +172,15 @@ const generalNews =  () => {
       {
        
         setArticles(result.NewsData.articles)
+        document.getElementById('miGeneral').style.backgroundColor= '#2a5fe8'
+        document.getElementById('miHome').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miBusiness').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miEntertainment').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miHealth').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miScience').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miSport').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miTech').style.backgroundColor= '#f9f9f9'
+        document.getElementById('txtSearch').value = ""
         setCurrentPage(1)
     }
   },
@@ -188,6 +206,15 @@ const businessNews =  () => {
       {
        
         setArticles(result.NewsData.articles)
+        document.getElementById('miBusiness').style.backgroundColor= '#2a5fe8'
+        document.getElementById('miGeneral').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miHome').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miEntertainment').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miHealth').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miScience').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miSport').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miTech').style.backgroundColor= '#f9f9f9'
+        document.getElementById('txtSearch').value = ""
         setCurrentPage(1)
     }
   },
@@ -213,6 +240,15 @@ const entertainmentNews =  () => {
       {
        
         setArticles(result.NewsData.articles)
+        document.getElementById('miEntertainment').style.backgroundColor= '#2a5fe8'
+        document.getElementById('miHome').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miGeneral').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miBusiness').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miHealth').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miScience').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miSport').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miTech').style.backgroundColor= '#f9f9f9'
+        document.getElementById('txtSearch').value = ""
         setCurrentPage(1)
     }
   },
@@ -238,6 +274,15 @@ const healthNews =  () => {
       {
        
         setArticles(result.NewsData.articles)
+        document.getElementById('miHealth').style.backgroundColor= '#2a5fe8'
+        document.getElementById('miHome').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miGeneral').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miBusiness').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miEntertainment').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miScience').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miSport').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miTech').style.backgroundColor= '#f9f9f9'
+        document.getElementById('txtSearch').value = ""
         setCurrentPage(1)
     }
   },
@@ -249,6 +294,7 @@ const healthNews =  () => {
  
 };
 const scienceNews =  () => {
+  debugger;
   fetch("http://127.0.0.1:5000/News/category/science")
   .then(res => res.json())
   .then(
@@ -263,6 +309,15 @@ const scienceNews =  () => {
       {
        
         setArticles(result.NewsData.articles)
+        document.getElementById('miScience').style.backgroundColor= '#2a5fe8'
+        document.getElementById('miHome').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miGeneral').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miBusiness').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miEntertainment').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miHealth').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miSport').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miTech').style.backgroundColor= '#f9f9f9'
+        document.getElementById('txtSearch').value = ""
         setCurrentPage(1)
     }
   },
@@ -288,6 +343,15 @@ const sportsNews =  () => {
       {
        
         setArticles(result.NewsData.articles)
+        document.getElementById('miSport').style.backgroundColor= '#2a5fe8'
+        document.getElementById('miHome').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miGeneral').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miBusiness').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miEntertainment').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miHealth').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miScience').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miTech').style.backgroundColor= '#f9f9f9'
+        document.getElementById('txtSearch').value = ""
         setCurrentPage(1)
     }
   },
@@ -314,6 +378,50 @@ const technologyNews =  () => {
       {
        
         setArticles(result.NewsData.articles)
+        document.getElementById('miTech').style.backgroundColor= '#2a5fe8'
+        document.getElementById('miHome').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miGeneral').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miBusiness').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miEntertainment').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miHealth').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miScience').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miSport').style.backgroundColor= '#f9f9f9'
+        document.getElementById('txtSearch').value = ""
+        setCurrentPage(1)
+    }
+  },
+    (error) => {
+
+      console.log(error)
+    }
+  )
+ 
+  
+};
+const searchNews =  () => {
+ 
+  fetch("http://127.0.0.1:5000/News/search/"+document.getElementById('txtSearch').value)
+  .then(res => res.json())
+  .then(
+    (result) => {
+
+      console.log(result)
+      if(result.Code == 401)
+      {
+        window.alert(result.Message);
+      }
+      else if(result.Code == 200)
+      {
+       
+        setArticles(result.NewsData.articles)
+        document.getElementById('miHome').style.backgroundColor= '#2a5fe8'
+        document.getElementById('miGeneral').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miBusiness').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miEntertainment').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miHealth').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miScience').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miSport').style.backgroundColor= '#f9f9f9'
+        document.getElementById('miTech').style.backgroundColor= '#f9f9f9'
         setCurrentPage(1)
     }
   },
@@ -329,14 +437,14 @@ const technologyNews =  () => {
 const sidebar = <Sidebar>
   <Menu iconShape="square" backgroundColor= 'black'>
     
-      <MenuItem onClick={homelNews}>Home</MenuItem>
-      <MenuItem onClick={generalNews}>General</MenuItem>
-      <MenuItem onClick={businessNews}>Business</MenuItem>
-      <MenuItem onClick={entertainmentNews}>Entertainment</MenuItem>
-      <MenuItem onClick={healthNews}>Health</MenuItem>
-      <MenuItem onClick={scienceNews}>Science</MenuItem>
-      <MenuItem onClick={sportsNews}>Sports</MenuItem>
-      <MenuItem onClick={technologyNews}>Technology</MenuItem>
+      <MenuItem id='miHome' onClick={homelNews} style={{backgroundColor: '#2a5fe8'}}>Home</MenuItem>
+      <MenuItem id='miGeneral' onClick={generalNews} style={{backgroundColor: '#f9f9f9'}}>General</MenuItem>
+      <MenuItem id='miBusiness' onClick={businessNews} style={{backgroundColor: '#f9f9f9'}}>Business</MenuItem>
+      <MenuItem id='miEntertainment' onClick={entertainmentNews} style={{backgroundColor: '#f9f9f9'}}>Entertainment</MenuItem>
+      <MenuItem id='miHealth' onClick={healthNews} style={{backgroundColor: '#f9f9f9'}}>Health</MenuItem>
+      <MenuItem id='miScience' onClick={scienceNews} style={{backgroundColor: '#f9f9f9'}}>Science</MenuItem>
+      <MenuItem id='miSport' onClick={sportsNews} style={{backgroundColor: '#f9f9f9'}}>Sports</MenuItem>
+      <MenuItem id='miTech' onClick={technologyNews} style={{backgroundColor: '#f9f9f9'}}>Technology</MenuItem>
 
   </Menu>
 </Sidebar>;
@@ -359,10 +467,16 @@ const sidebar = <Sidebar>
  
       <div className="landingPage" style={{ display: 'flex'}}>
        <div class='Sidebar' >
+        <div style={{height:'100px'}}> 
+
+        </div>
       {sidebar}
       </div>
       <div>
-     
+      <div style={{ margin: '200px'}}>
+        <input type='text' id='txtSearch' style={ {width: '600px'}}></input>
+        <button id='btnSearch' onClick={searchNews}>Search</button>
+      </div>
           {currentPosts.map(article => {
               return(
                   <NewsItem 
