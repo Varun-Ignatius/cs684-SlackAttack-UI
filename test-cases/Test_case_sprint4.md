@@ -48,5 +48,29 @@ A112.    Test - number of aricles returned
             
 UI Testing:
 
+U100.       Test home page:
+          -  Verify that the home page loads successfully and displays the latest news                      stories.
+          -  Verify that the header and footer sections are displayed correctly.
+          -  Verify that the navigation bar works correctly and the links lead to the correct               pages.
+          
+U101.       Test Article page:
+            - Verify that each article loads correctly and displays the title, author, date,                and content.
+            - Verify that the article includes related images, videos, or audio files as                    applicable.
 
-        
+U102.       Test Search Functionlity:
+            - Verify that the search bar works correctly and displays relevant search results.
+            - Verify that the search results page displays the correct number of results and                relevant details (such as article title, author, and date).
+            - Verify that the search results page is paginated correctly and the pagination                links lead to the correct pages.
+
+U103.       Test Category pages:
+            - Verify that each category page loads correctly and displays the relevant news                 stories.
+            - Verify that the category page is paginated correctly and the pagination links                 lead to the correct pages.
+            - Verify that the category page includes filtering options (such as by date or by               author) and that the filtering works correctly.
+            
+U104.         Test Site Speed:
+            - Verify that the pages loads quickly and does not have any performance issues.
+            - Verify that the pages performance meets industry standards and does not cause                 any errors or issues.
+
+U205.       Test User authentication:
+            - Verify that users can authenticate themselves on the website and that the                     authentication process works correctly.
+            - Verify that users can reset their passwords if they forget them and that the                  password reset process works correctly.
