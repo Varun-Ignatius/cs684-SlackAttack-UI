@@ -1,3 +1,6 @@
+
+Sprint - 4 test cases:
+
 100.    Test - Filter news articles by category:
             verify that the API returns news arricles in the specified category
 
