@@ -71,6 +71,18 @@ U104.         Test Site Speed:
             - Verify that the pages loads quickly and does not have any performance issues.
             - Verify that the pages performance meets industry standards and does not cause                 any errors or issues.
 
-U205.       Test User authentication:
+U105.       Test User authentication:
             - Verify that users can authenticate themselves on the website and that the                     authentication process works correctly.
             - Verify that users can reset their passwords if they forget them and that the                  password reset process works correctly.
+
+U106.        Test for broken links:
+            - Verify that there are no broken links on the home page and that all links work                correctly.
+            - Verify that the home page includes a mechanism for reporting broken links and                that the reporting functionality works correctly.
+            
+U107.       Test for related articles:
+            - Verify that the page displays related articles correctly and that the related                 articles are relevant to the current article.
+            - Verify that the page displays a reasonable number of related articles and                     does not overwhelm the user with too many options.
+            - Verify that the links to related articles work correctly and lead to the correct              pages.
+            
+            
+            
